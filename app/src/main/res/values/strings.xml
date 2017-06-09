@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ServiceTest</string>
+    <string name="but1">Start Service</string>
+    <string name="but2">Stop Service</string>
 </resources>
