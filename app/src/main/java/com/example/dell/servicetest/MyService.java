@@ -14,11 +14,11 @@ public class MyService extends Service {
     private DownloadBinder mBinder = new DownloadBinder();
 
     class DownloadBinder extends Binder {
-        private void startDownload() {
+        protected void startDownload() {
             Log.d("MyService", "startDownload executed");
         }
 
-        private int getProgress() {
+        protected int getProgress() {
             Log.d("MyService", "getProgress executed");
             return 0;
         }
