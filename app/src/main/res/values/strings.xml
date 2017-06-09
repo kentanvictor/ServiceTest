@@ -4,4 +4,5 @@
     <string name="but2">Stop Service</string>
     <string name="but3">Bind Service</string>
     <string name="but4">Unbind Service</string>
+    <string name="but5">Start IntentService</string>
 </resources>
