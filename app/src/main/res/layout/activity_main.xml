@@ -5,16 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.dell.servicetest.MainActivity">
+
     <Button
+        android:id="@+id/start_service"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/start_service"
-        android:text="@string/but1"
-        />
+        android:text="@string/but1" />
+
     <Button
         android:id="@+id/stop_service"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/but2"
-        />
+        android:text="@string/but2" />
+
+    <Button
+        android:id="@+id/bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but3" />
+
+    <Button
+        android:id="@+id/unbind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but4" />
 </LinearLayout>
